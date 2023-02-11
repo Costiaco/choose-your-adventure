@@ -1,0 +1,106 @@
+* {
+    text-decoration: none;
+    margin: 1rem 0.3rem;
+    padding: 0.8rem;
+    text-align: center;
+    font-family: 'Yuji Mai', sans-serif;
+}
+
+body {
+    background-image: url("img/bg-1.jpg");
+    background-repeat: repeat;
+    /* background-size: contain; */
+    color: #E9E6FF;
+    background-color: #495867;
+    margin: 0 0.5rem;
+    padding: 0;
+}
+#banner {
+    background-image: url("img/black-cat_50.png");
+    width: auto;
+    height: 280px;
+    background-repeat: round;
+    margin: 2rem 0;
+    padding: 0;
+}
+#welcome {
+    font-size: 44px;
+    text-shadow: 4px 4px 2px #000000;
+}
+#subtitle {
+    font-size: 180%;
+    text-shadow: 4px 4px 2px #000000;
+}
+a {
+    color: #000000;
+    font-size: 24px;
+}
+.btn {
+    background-color: #E9E6FF;
+    color: #000000;
+    border-radius: 30%;
+    border: 5px solid black;
+}
+button {
+    transition-duration: 1s;
+    background-color: #E9E6FF;
+    color: #E9E6FF;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #F7EF99;
+    border: 5px groove rgb(175,122,109);
+    border-radius: 30%;
+}
+.adventure {
+    border: 2px dotted #F7EF99;
+    background-color: rgba(247, 239, 153, 0.30);
+    border-radius: 10%;
+}
+.adventure p {
+    color: #000000;
+    font-size: 22px;
+    /* text-shadow: 1px 1px 1px #E9E6FF; */
+    /* font-weight: bold; */
+}
+p:first-letter {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #F7EF99;
+    border-radius: 40% 20%;
+}
+#giant {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    transition-duration: 0.5s;
+}
+#giant:hover {
+    font-size: 30px;
+}
+div {
+    margin: auto;
+    padding: 0;
+}
+img {
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    width: auto;
+}
+.adv-title {
+    text-shadow: 4px 4px 2px #000000;
+    font-size: 40px;
+    margin-bottom: 3rem;
+}
+hr {
+    border-color: #000000;
+    color: #000000;
+    margin: 3rem;
+    padding: 0;
+}
+@media (max-width: 768px) {
+    #welcome {font-size: 36px; padding: 0; margin: 0;}
+    div img {height: 120px; width: auto;}
+    .options {font-size: 18px;}
+}
